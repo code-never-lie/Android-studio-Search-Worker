@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/CV_Builder"
+        android:layout_width="385dp"
+        android:layout_height="55dp"
+        android:background="@color/colorAccent"
+        android:text="CV Builder"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/Edit_CV"
+        android:layout_width="385dp"
+        android:layout_height="55dp"
+        android:background="@color/colorAccent"
+        android:onClick="CV"
+        android:text="Edit CV"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/Search_worker"
+        android:layout_width="385dp"
+        android:layout_height="55dp"
+        android:background="@color/colorAccent"
+        android:onClick="worker"
+        android:text="Search worker"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="261dp"
+        android:layout_height="36dp"
+        android:text="Search Worker Mini App"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toTopOf="@+id/CV_Builder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
